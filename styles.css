@@ -1,0 +1,225 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 8px 250px 80px 250px;
+  }
+  
+  .upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    flex-shrink: 0;
+  }
+  
+  .header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  .bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    flex: 1;
+    gap: 40px;
+    height: 200px;
+  }
+  
+  .left-header {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 4px;
+    flex-wrap: nowrap;
+  }
+  
+  .hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 50px;
+  }
+  
+  .hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  .signup-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 6px 22px;
+    border-radius: 7px;
+    font-size: 12px;
+    width: 90px;
+    margin-top: 4px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #1462df;
+  }
+  
+  .right-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    align-self: stretch;
+    min-width: 200px;
+    width: 500px;
+  }
+  
+  .placeholder {
+    color: #E5E7EB;
+  }
+  
+  .information {
+    padding: 50px 130px 60px 130px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  
+  .subtext-container {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+  }
+  
+  .subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  
+  .box {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+  }
+  
+  .subtext-text {
+    width: 150px;
+    color: rgb(128, 128, 128);
+  }
+  
+  .quotes {
+    background-color: #E5E7EB;
+    padding: 80px 130px 80px 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quotes-text {
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937cc;
+    width: 650px;
+  }
+  
+  .quotes-author {
+    margin-left: 500px;
+    margin-right: 14px;
+    font-weight: 800;
+  }
+  
+  .subsection {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .cta-section {
+    width: 700px;
+    background-color: #3882F6;
+    padding: 35px 80px 35px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .text-section {
+    color: white;
+  }
+  
+  .cta-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .cta-text {
+    color: rgb(223, 223, 223);
+    font-size: 14px;
+  }
+  
+  .cta-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 4px 25px;
+    border-radius: 6px;
+    transition: background-color 0.15s, color 0.15s;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: #3882F6;
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
